@@ -1,0 +1,61 @@
+/*
+ *  This file should contain your custom style rules.
+ */
+.alert {
+    display: none;
+}
+
+.alert.active {
+    display: block;
+}
+
+.main-title {
+    text-align: center;
+    margin: 15px 0px;
+    padding-bottom: 20px;
+}
+
+button#logout {
+    margin: 15px;
+}
+
+button#btn-submit {
+    margin-left: 10px;
+}
+
+#chat-title {
+    padding-left: 15px;
+    display: inline-block;
+}
+
+textarea#message-input {
+    width: 100%;
+    border: 1px solid green;
+}
+
+.footing {
+    text-align: right;
+}
+
+body#chat-page-body {
+    background-color: lightslategray;
+}
+
+.chat-name {
+    font-size: 1.2em;
+    color: #545556;
+}
+
+.chat-text {
+    padding-left: 90px;
+}
+
+.chat-timestamp {
+    font-size: 0.8em;
+    color: gray;
+}
+
+li.msg-li {
+    min-height: 100px;
+}
+

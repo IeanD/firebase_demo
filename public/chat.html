@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hiya!</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="chat-page-body">
+    <h2 id="chat-title"></h2>
+    <button id="logout" class="logout-button pull-right btn btn-danger">Logout</button>
+    <div class="container" id="override-bootstrap">
+        <ul id="messages" class="list-group"></ul>
+    </div>
+
+    <div class="container">
+        <form id="message-form">
+            <textarea autofocus id="message-input" placeholder="Enter your message"></textarea>
+
+            <button type="submit" class="btn btn-success" id="btn-submit">Submit</button>
+        </form>
+    </div>
+
+    <div id="signup-error" class="alert alert-danger container" role="alert"></div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.14.1/moment-with-locales.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.5.2/firebase.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="js/chat.js"></script>
+    <footer>
+        <h1 class="footing">Hiya!</h1>
+    </footer>
+</body>
+</html>
